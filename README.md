@@ -7,6 +7,17 @@
 $ npm install
 ```
 
+## BD docker
+```bash
+  docker-compose up
+```
+
+## variables de entorno
+
+Clonar archivo __.env.template.__ y renombrar a __.env__
+y llenar variables de entorno
+
+
 ## Running the app
 
 ```bash
@@ -18,6 +29,12 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+```
+
+## reconstruir BD con Semilla
+
+```bash
+  http://localhost:3000/api/v2/seed
 ```
 
 ## Test
