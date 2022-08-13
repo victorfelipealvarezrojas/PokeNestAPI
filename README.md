@@ -50,3 +50,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## en docker
+
+crear archivo __..env.prod.__ y llenar variables entorno
+
+```sh
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+

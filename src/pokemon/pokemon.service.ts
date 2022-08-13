@@ -55,7 +55,7 @@ export class PokemonService {
     }
 
     if (!pokemon) {
-      pokemon = await this.pokemonModel.findOne({ name: term.toLowerCase() });
+      pokemon = await this.pokemonModel.findOne({ name: term });
     }
 
     if (!pokemon)
